@@ -1,6 +1,8 @@
 # How do you check an AI proof?
 
 Original RUNTIME teaching examples accompanying the OpenAI math explainer.
+Watch: [OpenAI Released 722 Math Papers. How Do We Check Them?](https://youtu.be/7wwZYNm4JBc)
+
 This companion is not an independent
 verification of OpenAI's research results, and it contains no model weights.
 
@@ -9,7 +11,15 @@ verification of OpenAI's research results, and it contains no model weights.
 Requirements: Python 3.10+ and [Lean 4.34.1](https://github.com/leanprover/lean4/releases/tag/v4.34.1).
 Choose the Lean release for your OS/CPU and extract it. On Linux, the .tar.zst
 release requires a zstd-capable tar. You do not need Mathlib, a GPU, API access,
-or a paid account for these examples. Run from the extracted companion folder:
+or a paid account for these examples. Download this repository using GitHub's
+Code > Download ZIP button and extract it, or clone it:
+
+```sh
+git clone https://github.com/Runtime-weekly/ai-proof-checking.git
+cd ai-proof-checking
+```
+
+Run from the downloaded companion folder:
 
 ```sh
 python3 run.py --lean /absolute/path/to/lean-4.34.1/bin/lean
