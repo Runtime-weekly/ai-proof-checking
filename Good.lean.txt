@@ -1,0 +1,4 @@
+-- Original RUNTIME educational example; not an OpenAI research result.
+theorem even_plus_even (a b : Nat) : ∃ k : Nat, 2*a + 2*b = 2*k := by
+  exact ⟨a+b, (Nat.mul_add 2 a b).symm⟩
+#print axioms even_plus_even

@@ -1,0 +1,4 @@
+-- Deliberate gap: compiling is not proof acceptance.
+theorem false_claim : (2 : Nat) = 3 := by
+  sorry
+#print axioms false_claim

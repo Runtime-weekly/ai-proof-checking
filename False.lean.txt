@@ -1,0 +1,3 @@
+-- A false claim without an admitted gap is rejected.
+theorem false_claim : (2 : Nat) = 3 := by
+  decide

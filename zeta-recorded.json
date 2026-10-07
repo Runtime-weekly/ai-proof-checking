@@ -1,0 +1,45 @@
+{
+  "method": "mpmath zetazero at 40 decimal digits; numerical examples only, not a universal proof",
+  "values": [
+    {
+      "index": 1,
+      "real": "0.5",
+      "imaginary": "14.13472514173469379045725198356247027078",
+      "residual": "3.414727449413015502374795249499409232124e-41"
+    },
+    {
+      "index": 2,
+      "real": "0.5",
+      "imaginary": "21.02203963877155499262847959389690277733",
+      "residual": "1.047962600386691531730221714741263504139e-40"
+    },
+    {
+      "index": 3,
+      "real": "0.5",
+      "imaginary": "25.01085758014568876321379099256282181866",
+      "residual": "2.227639520124133838091755961640945828702e-40"
+    },
+    {
+      "index": 4,
+      "real": "0.5",
+      "imaginary": "30.42487612585951321031189753058409132018",
+      "residual": "8.207133451891773492679129559826855752622e-41"
+    }
+  ],
+  "references": [
+    "https://dlmf.nist.gov/25.10",
+    "https://www.claymath.org/millennium/riemann-hypothesis/"
+  ],
+  "plot_domain": {
+    "real": [
+      0,
+      1.2
+    ],
+    "imaginary": [
+      0,
+      36
+    ]
+  },
+  "claim_source": "openai/math CONTENTS family 003, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "research_proof_independently_verified": false
+}

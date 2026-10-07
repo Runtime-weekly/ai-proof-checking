@@ -1,0 +1,239 @@
+{
+  "utc": "2026-10-07T04:36:04.057876+00:00",
+  "lean_version": "Lean (version 4.34.1, aarch64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "host": "aarch64",
+  "scope": "Author-written educational examples; no OpenAI model inference; no research-theorem reproduction.",
+  "runs": [
+    {
+      "file": "Admitted.lean",
+      "sha256": "4ca1a9277b781b5ee787b8070dcc6b8442c2ffbb6451b5aee437e7f943b78da4",
+      "exit_code": 0,
+      "output": "Admitted.lean:2:8: warning: declaration uses `sorry`\n'false_claim' depends on axioms: [sorryAx]\n"
+    },
+    {
+      "file": "Broken.lean",
+      "sha256": "ec33bc15f4a9f103fd4322c15cc0a1416054e92ac22e0a5844671a2d0f3cc7da",
+      "exit_code": 1,
+      "output": "Broken.lean:3:12: error: Application type mismatch: The argument\n  Eq.symm (Nat.mul_add 2 a b)\nhas type\n  2 * a + 2 * b = 2 * (a + b)\nbut is expected to have type\n  2 * a + 2 * b = 2 * a\nin the application\n  Exists.intro a (Eq.symm (Nat.mul_add 2 a b))\n"
+    },
+    {
+      "file": "False.lean",
+      "sha256": "27bcdbfe961d1ee73af4a869460440a158818cccedfc9b34a9c4f4a87ef226b4",
+      "exit_code": 1,
+      "output": "False.lean:3:2: error: Tactic `decide` proved that the proposition\n  2 = 3\nis false\n"
+    },
+    {
+      "file": "Good.lean",
+      "sha256": "e8630c860f0e4c899bc568181bcba43baa4e35d4b7460a48f1a4ad963e27d200",
+      "exit_code": 0,
+      "output": "'even_plus_even' does not depend on any axioms\n"
+    }
+  ],
+  "polynomial": [
+    {
+      "n": 0,
+      "value": 41,
+      "prime": true
+    },
+    {
+      "n": 1,
+      "value": 43,
+      "prime": true
+    },
+    {
+      "n": 2,
+      "value": 47,
+      "prime": true
+    },
+    {
+      "n": 3,
+      "value": 53,
+      "prime": true
+    },
+    {
+      "n": 4,
+      "value": 61,
+      "prime": true
+    },
+    {
+      "n": 5,
+      "value": 71,
+      "prime": true
+    },
+    {
+      "n": 6,
+      "value": 83,
+      "prime": true
+    },
+    {
+      "n": 7,
+      "value": 97,
+      "prime": true
+    },
+    {
+      "n": 8,
+      "value": 113,
+      "prime": true
+    },
+    {
+      "n": 9,
+      "value": 131,
+      "prime": true
+    },
+    {
+      "n": 10,
+      "value": 151,
+      "prime": true
+    },
+    {
+      "n": 11,
+      "value": 173,
+      "prime": true
+    },
+    {
+      "n": 12,
+      "value": 197,
+      "prime": true
+    },
+    {
+      "n": 13,
+      "value": 223,
+      "prime": true
+    },
+    {
+      "n": 14,
+      "value": 251,
+      "prime": true
+    },
+    {
+      "n": 15,
+      "value": 281,
+      "prime": true
+    },
+    {
+      "n": 16,
+      "value": 313,
+      "prime": true
+    },
+    {
+      "n": 17,
+      "value": 347,
+      "prime": true
+    },
+    {
+      "n": 18,
+      "value": 383,
+      "prime": true
+    },
+    {
+      "n": 19,
+      "value": 421,
+      "prime": true
+    },
+    {
+      "n": 20,
+      "value": 461,
+      "prime": true
+    },
+    {
+      "n": 21,
+      "value": 503,
+      "prime": true
+    },
+    {
+      "n": 22,
+      "value": 547,
+      "prime": true
+    },
+    {
+      "n": 23,
+      "value": 593,
+      "prime": true
+    },
+    {
+      "n": 24,
+      "value": 641,
+      "prime": true
+    },
+    {
+      "n": 25,
+      "value": 691,
+      "prime": true
+    },
+    {
+      "n": 26,
+      "value": 743,
+      "prime": true
+    },
+    {
+      "n": 27,
+      "value": 797,
+      "prime": true
+    },
+    {
+      "n": 28,
+      "value": 853,
+      "prime": true
+    },
+    {
+      "n": 29,
+      "value": 911,
+      "prime": true
+    },
+    {
+      "n": 30,
+      "value": 971,
+      "prime": true
+    },
+    {
+      "n": 31,
+      "value": 1033,
+      "prime": true
+    },
+    {
+      "n": 32,
+      "value": 1097,
+      "prime": true
+    },
+    {
+      "n": 33,
+      "value": 1163,
+      "prime": true
+    },
+    {
+      "n": 34,
+      "value": 1231,
+      "prime": true
+    },
+    {
+      "n": 35,
+      "value": 1301,
+      "prime": true
+    },
+    {
+      "n": 36,
+      "value": 1373,
+      "prime": true
+    },
+    {
+      "n": 37,
+      "value": 1447,
+      "prime": true
+    },
+    {
+      "n": 38,
+      "value": 1523,
+      "prime": true
+    },
+    {
+      "n": 39,
+      "value": 1601,
+      "prime": true
+    },
+    {
+      "n": 40,
+      "value": 1681,
+      "prime": false
+    }
+  ]
+}

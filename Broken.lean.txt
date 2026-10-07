@@ -1,0 +1,3 @@
+-- Deliberately invalid negative control.
+theorem even_plus_even (a b : Nat) : ∃ k : Nat, 2*a + 2*b = 2*k := by
+  exact ⟨a, (Nat.mul_add 2 a b).symm⟩
